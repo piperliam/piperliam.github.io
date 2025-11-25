@@ -3,55 +3,66 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
+    <title>MAGPIE Abstract</title>
+
+    <!-- MathJax -->
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
+            font-family: Georgia, serif;
+            background-color: #f9f9f9;
             margin: 0;
-            padding: 0;
-            display: flex;
-            height: 100vh;
-            align-items: center;
-            justify-content: center;
-        }
-        .container {
-            text-align: center;
             padding: 40px;
+        }
+        .content {
+            max-width: 900px;
+            margin: auto;
             background: white;
+            padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 0 25px rgba(0,0,0,0.15);
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
         }
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            text-align: center;
+            font-size: 2rem;
         }
-        p {
-            font-size: 1.2rem;
-            color: #333;
-        }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 18px;
-            background: #0078ff;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: 0.2s;
-        }
-        a:hover {
-            background: #005fcc;
+        h2 {
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Test Page</h1>
-        <p>This is a test page hosted on GitHub Pages.</p>
-        <a href="https://github.com">View GitHub</a>
-    </div>
+<div class="content">
+
+<h1>Design and Feasibility of the Mars Atmospheric &amp; Ground Probe Instrumentation Experiment (MAGPIE)</h1>
+
+<p><strong>Liam Piper</strong><br>
+<em>Independent Mission Design Lead, MAGPIE Project. AIAA Member Number: 1601426.</em><br>
+Independent Researcher, Norwich, CT, 06360</p>
+
+<h2>Abstract</h2>
+
+<p>
+The Mars Atmospheric & Ground Probe Instrumentation Experiment (MAGPIE) is a distributed lander mission concept deploying six autonomous microprobes from a dedicated relay orbiter to obtain time-synchronous meteorological, electrical, and visual measurements across a pole-to-pole latitude range on Mars. The mission architecture assumes a 276 day heliocentric transfer prior to Mars Orbit Insertion, followed by sequential probe releases timed to low-altitude orbital passes. After landing, each mid-latitude probe is designed for a 28 sol operational window, while polar deployments are expected to operate for at least 32 hours under low-insolation conditions.
+</p>
+
+<p>
+Each 23 kg probe utilizes a 1 m, 70\( ^\circ \) sphere–cone aeroshell, drogue and main parachutes, and an aluminum-honeycomb crush-core system tuned to absorb \( > 90\% \) of terminal kinetic energy. High-fidelity entry–descent–landing simulations predict peak decelerations of 10–12 g and terminal velocities of 12–15 m/s, remaining within structural and thermal limits across representative dispersions. The orbiter employs dual-frequency UHF/LoRa relay links and an X-band DSN downlink, supported by a redundant ADCS architecture with RW250-class wheels, tertiary wheels, dual star trackers, coarse sun sensors, and a computer-vision star-tracking mode.
+</p>
+
+<p>
+End-to-end trajectory and propulsion modeling indicates that a Falcon-9-class launch vehicle can deliver the 7.5 t integrated stack onto a \( C_3 = 9.879 \text{ km}^2/\text{s}^2 \) departure with sufficient margin for the distributed \( \Delta v_{\text{MOI}} = 1.49 \text{ km/s} \) insertion sequence. A 700-hour landed thermal–power simulation suggests sustained, power-positive operation at mid-latitudes under moderate dust loading (\( \tau = 0.4 \)), with all critical nodes maintained above survival thresholds.
+</p>
+
+<p>
+Overall, MAGPIE outlines a feasible framework for obtaining time-synchronous, multi-latitude measurements of Martian boundary-layer meteorology and atmospheric electrification, providing data that can refine environmental models and help guide the design of future robotic and human surface systems.
+</p>
+
+<p><a href="index.html">Back to main page</a></p>
+
+</div>
 </body>
 </html>
